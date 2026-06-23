@@ -1,0 +1,52 @@
+<mxfile host="Electron">
+  <diagram name="Страница-1" id="SFzmtXmU2TlGEZsTdAtz">
+    <mxGraphModel dx="1078" dy="1994" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NSAbFz1UrN4iOFLh3seq-10" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);align=center;verticalAlign=middle;" value="Клиентская сторона (Устройства пользователей)" vertex="1">
+          <mxGeometry height="168" width="460" x="20" y="-20" as="geometry" />
+        </mxCell>
+        <mxCell id="NSAbFz1UrN4iOFLh3seq-11" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Веб-браузер (Читатель)" vertex="1">
+          <mxGeometry height="50" width="230" x="30" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NSAbFz1UrN4iOFLh3seq-12" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Веб-браузер (Администратор)" vertex="1">
+          <mxGeometry height="50" width="196" x="274" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NSAbFz1UrN4iOFLh3seq-13" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Сервер приложения (Linux/Windows Server)" vertex="1">
+          <mxGeometry height="78" width="260" x="505" y="247" as="geometry" />
+        </mxCell>
+        <mxCell id="NSAbFz1UrN4iOFLh3seq-14" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="База данных (PostgreSQL)" vertex="1">
+          <mxGeometry height="85" width="203" x="534" y="399" as="geometry" />
+        </mxCell>
+        <mxCell id="NSAbFz1UrN4iOFLh3seq-15" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Программный модуль каталога" vertex="1">
+          <mxGeometry height="78" width="260" x="610" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NSAbFz1UrN4iOFLh3seq-17" edge="1" parent="1" source="NSAbFz1UrN4iOFLh3seq-11" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.27;rounded=0;" target="NSAbFz1UrN4iOFLh3seq-13" value="HTTPS">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="173" y="222" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSAbFz1UrN4iOFLh3seq-18" edge="1" parent="1" source="NSAbFz1UrN4iOFLh3seq-12" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.11;entryY=0;rounded=0;" target="NSAbFz1UrN4iOFLh3seq-13" value="HTTPS">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="222" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSAbFz1UrN4iOFLh3seq-19" edge="1" parent="1" source="NSAbFz1UrN4iOFLh3seq-13" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="NSAbFz1UrN4iOFLh3seq-14" value="SQL запросы">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSAbFz1UrN4iOFLh3seq-20" edge="1" parent="1" source="NSAbFz1UrN4iOFLh3seq-15" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=none;exitX=0.5;exitY=1;entryX=0.89;entryY=0;rounded=0;" target="NSAbFz1UrN4iOFLh3seq-13" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
